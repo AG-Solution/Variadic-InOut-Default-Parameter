@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     //MARK: Default Parameter function
     func DefaultParameterFunc(num1:Int, num2:Int = 12) -> Int
     {
-        return num1*num2+num1
+        return num1*num2
     }
     
 }
