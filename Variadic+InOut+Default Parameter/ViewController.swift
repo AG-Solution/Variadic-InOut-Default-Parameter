@@ -30,7 +30,6 @@ class ViewController: UIViewController {
     //MARK: Variadic Parameter
     func VariadicFunc(Num: Int...) -> Int
     {
-        
         var total:Int = 0
         
         for val in Num
@@ -47,10 +46,11 @@ class ViewController: UIViewController {
         return Num1 + Num2
     }
     
+    
     //MARK: Default Parameter function
     func DefaultParameterFunc(num1:Int, num2:Int = 12) -> Int
     {
-        return num1*num2
+        return num1*num2+num1
     }
     
 }
